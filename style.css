@@ -17,8 +17,15 @@ li {font-size: 14px;}
 .btn {
     padding: 10px 34px;
     background-color: #6F2CFF;
-    border-radius: 20px;
+    border-radius: 30px;
     color: white;
+}
+.btn_inverse {
+        padding: 10px 34px;
+        background-color: #FFFFFF;
+        border-radius: 30px;
+        color: #6F2CFF;
+        box-shadow: 0px 0px 0px #6F2CFF;
 }
 .btn-input {
     border-radius: 0px 27.5px 27.5px 0px;
@@ -123,3 +130,163 @@ header {
     font-weight: 700;
     padding-bottom: 20px;
 }
+
+/* Commerce AI */
+.commerce {
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+.commerce__text {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 22px;
+}
+.commerce__block {
+    display: flex;
+}
+.commerce__block__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.commerce__block__item h3 {
+    padding-bottom: 20px;
+}
+.commerce__block__item h4 {
+    max-width: 80%;
+    text-align: center;
+    line-height: 15px;
+}
+.commerce__block__icon {
+    max-width: 50px;
+    padding-bottom: 30px;
+}
+
+/* Easy to use */
+.use {
+    padding-top: 75px;
+    background: #F5F5F5;
+}
+.use__text {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.use__img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 60px;
+}
+.use__btn {
+    padding-top: 70px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+
+/* What you can do with */
+.what {
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+.what__text {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 22px;
+}
+.what__block {
+    display: flex;
+    padding: 80px 200px;
+    flex-wrap: wrap;
+}
+.what__block__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 33%;
+    padding-bottom: 80px;
+}
+.what__block__item h3 {
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+.what__block__item h4 {
+    max-width: 80%;
+    text-align: center;
+    line-height: 15px;
+}
+.what__block__icon {
+    max-width: 50px;
+    padding-bottom: 30px;
+}
+
+/* Слайдер */
+.slider {
+    padding-top: 75px;
+    padding-bottom: 100px;
+    background: #F5F5F5;
+}
+.slider__slider {
+    min-width: 0;
+    position: relative;
+    padding: 0 100px;
+}
+.slider__slider .slick-arrow {
+    position: absolute;
+    top: 40%;
+    z-index: 10;
+    font-size: 0px;
+    width: 50px; height: 75px;
+}
+.slider__text {
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;}
+.slider__wrapper {
+    display: flex;
+    justify-content: center;
+}
+.slider__item {
+    overflow: hidden;
+    min-width: 0;
+    max-width: 320px;
+    max-height: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(192, 192, 192, 0.5);
+    border-radius: 7px;
+}
+.slider__photo {
+    max-width: 320px ;
+}
+.slider__logo {
+    max-width: 150px;
+}
+.slider__item__text {
+    color: #6F2CFF;
+    font-weight: 700;
+    padding-top: 25px;
+    padding-bottom: 60px;
+    max-width: 70%;
+    text-align: center;
+}
+
+
+/* Слайдер */
+.slick-list {overflow: hidden;}
+.slick-track {
+    display: flex; 
+    gap: 40px;
+}
+.slick-arrow.slick-prev {
+    left: 50px;
+    background:url('img/slider/left.svg') 0 0 / 100% no-repeat;}
+.slick-arrow.slick-next {
+    right: 50px;
+    background: url('img/slider/right.svg') 0 0 / 100% no-repeat;}
